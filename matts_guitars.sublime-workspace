@@ -1,0 +1,905 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wordp",
+				"wordpress"
+			],
+			[
+				"round",
+				"round"
+			],
+			[
+				"reveal",
+				"revealedNames"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"total",
+				"totalBet"
+			],
+			[
+				"player",
+				"player"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"pla",
+				"player"
+			],
+			[
+				"game",
+				"game"
+			],
+			[
+				"deal",
+				"dealerScore"
+			],
+			[
+				"new",
+				"newScores"
+			],
+			[
+				"ne",
+				"newScores"
+			],
+			[
+				"la",
+				"latestCard"
+			],
+			[
+				"reve",
+				"revealed"
+			],
+			[
+				"dea",
+				"dealerScore"
+			],
+			[
+				"play",
+				"playerCard"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"roun",
+				"round"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"cards",
+				"cardsNames"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"gam",
+				"game"
+			],
+			[
+				"arr",
+				"array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/admin/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/AdminController.php",
+			"settings":
+			{
+				"buffer_size": 1603,
+				"line_ending": "Unix",
+				"name": "AdminController.php"
+			}
+		},
+		{
+			"file": "app/views/admin/articles/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Unix",
+				"name": "list.blade.php"
+			}
+		},
+		{
+			"file": "app/views/admin/guitars/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 191,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/Guitar.php",
+			"settings":
+			{
+				"buffer_size": 205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/Article.php",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/User.php",
+			"settings":
+			{
+				"buffer_size": 531,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/admin/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 607,
+				"line_ending": "Unix",
+				"name": "login.blade.php"
+			}
+		},
+		{
+			"file": "app/views/layouts/admin.blade.php",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Unix",
+				"name": "admin.blade.php"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 382.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/manuel/development/matts_guitars",
+		"/home/manuel/development/matts_guitars/app",
+		"/home/manuel/development/matts_guitars/app/config/local",
+		"/home/manuel/development/matts_guitars/app/controllers",
+		"/home/manuel/development/matts_guitars/app/models",
+		"/home/manuel/development/matts_guitars/app/storage/logs",
+		"/home/manuel/development/matts_guitars/app/views",
+		"/home/manuel/development/matts_guitars/app/views/admin",
+		"/home/manuel/development/matts_guitars/app/views/admin/guitars"
+	],
+	"file_history":
+	[
+		"/home/manuel/development/matts_guitars/app/storage/views/50157737720311dd0e787c1201b31657",
+		"/home/manuel/development/chanel-back/app/views/product/list.blade.php",
+		"/home/manuel/development/matts_guitars/app/controllers/ArticleController.php",
+		"/home/manuel/development/chanel-back/app/models/Product.php",
+		"/home/manuel/development/matts_guitars/app/models/Article.php",
+		"/home/manuel/development/matts_guitars/app/models/Guitar.php",
+		"/home/manuel/development/matts_guitars/app/controllers/GuitarController.php",
+		"/home/manuel/development/chanel-back/app/controllers/AdditionalElementController.php",
+		"/home/manuel/development/chanel-back/app/controllers/UserController.php",
+		"/home/manuel/development/chanel-back/app/routes.php",
+		"/home/manuel/development/chanel-back/app/controllers/LoginController.php",
+		"/home/manuel/development/chanel-back/app/views/login/index.blade.php",
+		"/home/manuel/development/matts_guitars/app/controllers/BaseController.php",
+		"/home/manuel/development/matts_guitars/app/config/local/app.php",
+		"/home/manuel/development/community/app/views/community/user/login.blade.php",
+		"/home/manuel/development/matts_guitars/app/views/hello.php",
+		"/home/manuel/development/matts_guitars/app/config/app.php",
+		"/home/manuel/development/matts_guitars/app/storage/logs/laravel.log",
+		"/home/manuel/development/chanel-back/app/views/structure/index.blade.php",
+		"/home/manuel/development/chanel-back/app/views/layouts/login.blade.php",
+		"/home/manuel/development/chanel-back/app/controllers/BaseController.php",
+		"/home/manuel/development/chanel-back/app/controllers/ProductController.php",
+		"/home/manuel/development/chanel-back/app/controllers/HomeController.php",
+		"/home/manuel/development/chanel-back/app/database/migrations/2014_07_09_164026_create_schema.php",
+		"/home/manuel/development/matts_guitars/app/database/seeds/UserTableSeeder.php",
+		"/home/manuel/development/matts_guitars/app/database/seeds/DatabaseSeeder.php",
+		"/home/manuel/development/matts_guitars/app/database/migrations/2014_12_19_145604_database_setup.php",
+		"/home/manuel/development/chanel-back/app/database/seeds/CategoryTableSeeder.php",
+		"/home/manuel/development/community/app/database/seeds/DatabaseSeeder.php",
+		"/home/manuel/development/chanel-back/app/database/seeds/DatabaseSeeder.php",
+		"/home/manuel/development/chanel-back/app/database/seeds/UserTableSeeder.php",
+		"/home/manuel/development/matts_guitars/app/config/local/database.php",
+		"/home/manuel/development/matts_guitars/app/config/database.php",
+		"/home/manuel/development/matts_guitars/app/config/remote.php",
+		"/home/manuel/development/community/app/views/admin/stories/storyOptions.blade.php",
+		"/home/manuel/FIFA 14/Squads 20140202170357#Squads 1",
+		"/home/manuel/Téléchargements/Davibe 2/Davibe/php.ini",
+		"/home/manuel/Téléchargements/Davibe 2/Davibe/.htaccess",
+		"/home/manuel/Téléchargements/Davibe 2/Davibe/wp-includes/pomo/mo.php",
+		"/home/manuel/Documents/BASEDEDONNEES.sql (1)/BASEDEDONNEES.sql",
+		"/home/manuel/Téléchargements/Davibe 2/Davibe/error_log",
+		"/home/manuel/development/wordpress/wp-config.php",
+		"/etc/php5/cgi/php.ini",
+		"/etc/php5/cli/php.ini",
+		"/etc/php5/apache2/php.ini",
+		"/home/manuel/Téléchargements/BASEDEDONNEES.sql/BASEDEDONNEES.sql",
+		"/home/manuel/Téléchargements/BASEDEDONNEES.sql/test/BASEDEDONNEES.sql",
+		"/tmp/fz3temp-1/wp-config.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Controller/GameController.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/Game/roundStart.html.twig",
+		"/home/manuel/development/BlackJack/web/bundles/casinoblackjack/css/icons.css",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/Game/end.html.twig",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/Game/index.html.twig",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/Stats/index.html.twig",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Controller/PlayerController.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/Player/index.html.twig",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/public/css/style.css",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/layout.html.twig",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/PlayerRepository.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/Game/playing.html.twig",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/config/routing.yml",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/views/Default/index.html.twig",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/public/css/icons.css",
+		"/home/manuel/Bureau/liste de projets :",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Form/Type/PlayerType.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/public/css/normalize.css",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Resources/config/deck.yml",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Controller/InfoController.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/Deck.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/Game.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/Round.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/Revealed.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/RevealedRepository.php",
+		"/home/manuel/Bureau/conf/sites-available/espace.marimax.fr.ssl.conf",
+		"/home/manuel/Bureau/conf/sites-available/default-ssl.conf",
+		"/home/manuel/Bureau/conf/sites-available/espace.marimax.fr.conf",
+		"/home/manuel/Bureau/conf/sites-available/000-default.conf",
+		"/home/manuel/development/Symfony/src/Acme/StoreBundle/Entity/ProductRepository.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/Player.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Controller/DefaultController.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/GameRepository.php",
+		"/home/manuel/development/BlackJack/src/Casino/BlackjackBundle/Entity/Game.php~",
+		"/home/manuel/development/phpmyadmin/config.sample.inc.php",
+		"/home/manuel/development/BlackJack/web/.htaccess",
+		"/etc/apache2/sites-available/default-ssl.conf",
+		"/etc/apache2/ports.conf",
+		"/etc/apache2/sites-available/000-default.conf",
+		"/etc/default/grub",
+		"/etc/apache2/apache2.conf",
+		"/home/manuel/development/info/index.php",
+		"/home/manuel/development/asmodee/.htaccess",
+		"/home/manuel/development/dash/.htaccess",
+		"/home/manuel/development/test/.htaccess",
+		"/home/manuel/development/wordpress/.htaccess",
+		"/home/manuel/development/wordpressClass/.htaccess",
+		"/home/manuel/development/BlackJack/app/.htaccess",
+		"/home/manuel/development/BlackJack/src/.htaccess",
+		"/home/manuel/development/chanel-back/public/.htaccess",
+		"/home/manuel/development/ABC_Champerret/.htaccess",
+		"/home/manuel/Bureau/development/Symfony/vendor/doctrine/cache/tests/travis/php.ini",
+		"/home/manuel/Bureau/development/BlackJack/vendor/doctrine/cache/tests/travis/php.ini",
+		"/home/manuel/development/Symfony/vendor/doctrine/cache/tests/travis/php.ini",
+		"/home/manuel/development/BlackJack/vendor/doctrine/cache/tests/travis/php.ini",
+		"/home/manuel/development/BlackJack/web/config.php",
+		"/home/manuel/.config/sublime-text-3/Packages/Theme - Brogrammer/Brogrammer.sublime-theme",
+		"/home/manuel/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/manuel/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/tmp/vmware-root/vmware-modconfig-6602.log"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"new_guitars",
+			"manage_articles",
+			"manage_guitars",
+			"getAll",
+			"GuitarController",
+			"email_login",
+			"\"production\"",
+			"'production'",
+			"production",
+			"php",
+			"bool",
+			"prod",
+			"max",
+			"wp_term",
+			"wp_post",
+			"wp_ninja",
+			"get_blackjack_homepage",
+			"player",
+			"all",
+			"banner",
+			"dealerCard",
+			"008300",
+			"ffffff",
+			"fonts",
+			"jpg",
+			"playerCard",
+			"spade",
+			"heart",
+			"diamond",
+			"clover",
+			"coeur",
+			"getCurrentPlayer",
+			"$stat['game']->getScore()",
+			"$score",
+			"score",
+			"scores",
+			"ul",
+			"cmp",
+			".id, ",
+			"finalScore",
+			"findDealerCards",
+			"setWon",
+			"getWon",
+			"setWon",
+			"blackjack_start_round",
+			"blackjack_start_game",
+			"Your deck",
+			"winner",
+			"$deck[$name]",
+			"findDealerCards",
+			"player",
+			"playerRevealed",
+			"playerCard",
+			"findNamesByRoundId",
+			"p",
+			"Revealed",
+			"revealed",
+			"game",
+			"post_blackjack_login",
+			"Default",
+			"cascade",
+			"add",
+			"blackjack",
+			"register_g",
+			"register_globals",
+			"register_globals =",
+			"error",
+			"show",
+			"/media/www-dev/public",
+			"rewrite",
+			"ServerName",
+			"rewrite",
+			"extensi",
+			"extensions",
+			"#",
+			"rewrite"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"getNewGuitar",
+			"manageArticles",
+			"manageGuitars",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								937,
+								937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/admin/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/AdminController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1351,
+								1351
+							],
+							[
+								1515,
+								1515
+							]
+						],
+						"settings":
+						{
+							"auto_name": "AdminController.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/admin/articles/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "list.blade.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/admin/guitars/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/Guitar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/models/Article.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/models/User.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/admin/login.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "login.blade.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/layouts/admin.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"auto_name": "admin.blade.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "matts_guitars.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/development/WSF-Social-by-CoolKids/Social.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 343.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
