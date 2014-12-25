@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/Open_Sans/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/Open_Sans/OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-style: normal;
+  src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-style: italic;
+  src: url(../fonts/Open_Sans/OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Open_Sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: italic;
+  src: url(../fonts/Open_Sans/OpenSans-SemiboldItalic.ttf);
+}
+
+html, body {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/background.jpg);
+    background-position: 0 0;
+    background-size: 100% auto;
+}
+#login-section {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    width: 350px;
+    margin: auto;
+}
+#login-section h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.7em;
+}
+#login-section input, #login-section button {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+#login-section span.blur {
+    position: absolute;
+    width: 345px;
+    height: 40px;
+    border-radius: 20px;
+    z-index: -1;
+    background-image: url(../img/background.jpg);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    margin-top: -54px;
+    left: 2px;
+}
+#login-section span.blur:last-of-type {
+    margin-top: -41px;
+}
+#login-section input[type=text], #login-section input[type=password] {
+    margin-bottom: 15px;
+    border: none;
+}
+#login-section button {
+    margin-top: 25px;
+    border: 2px solid #ffffff;
+    font-weight: 800;
+    background-color: transparent;
+}
+#login-section button .fa-lock {
+    margin-right: 10px;
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff;
+}
+:-ms-input-placeholder {
+  color: #ffffff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ffffff;
+}
