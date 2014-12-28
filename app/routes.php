@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::group(array('prefix' => 'admin', 'before' => 'auth'), function()
 {
-    Route::get('/', array('as' => 'admin_home', 'uses' => 'AdminController@getHome'));
+    Route::get('/', array('as' => 'adminHome', 'uses' => 'AdminController@getHome'));
     Route::get('/guitars', array('as' => 'manageGuitars', 'uses' => 'AdminController@getGuitars'));
     Route::get('/articles', array('as' => 'manageArticles', 'uses' => 'AdminController@getArticles'));
     // I have to build the adding form for both guitars and articles now, then, I'll have the data needed to seed

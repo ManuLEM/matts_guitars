@@ -17,16 +17,50 @@
         @endif
     </section>
     <script>
-        var blurs = document.querySelectorAll('span.blur');
-        for (var i = 0; i < blurs.length; i++) {
-            blurs[i].style.backgroundSize = window.innerWidth + "px auto";
-            if (i < 2) {
-                blurs[i].style.backgroundPositionY = "-" + (- 103 + blurs[i].offsetParent.offsetTop + blurs[i].offsetTop) + "px";
+        function load()
+        {
+            if (window.innerWidth / window.innerHeight < 1.62866) {
+                document.getElementsByTagName('body')[0].style.backgroundSize = 'cover';
             }
-            else {
-                blurs[i].style.backgroundPositionY = "-" + (- 100 + blurs[i].offsetParent.offsetTop + blurs[i].offsetTop) + "px";
-            }
-            blurs[i].style.backgroundPositionX = "-" + (blurs[i].offsetParent.offsetLeft + 3) + "px";
+            console.log(blurs);
+            for (var i = 0; i < blurs.length; i++) {
+                if (window.innerWidth / window.innerHeight < 1.62866) {
+                    blurs[i].style.backgroundSize = "auto " + window.innerHeight + "px";
+                }
+                else {
+                    blurs[i].style.backgroundSize = window.innerWidth + "px auto";
+                }
+                if (i < 2) {
+                    blurs[i].style.backgroundPosition = "-" + (blurs[i].offsetParent.offsetLeft + 3) + "px -" + (- 103 + blurs[i].offsetParent.offsetTop + blurs[i].offsetTop) + "px";
+                }
+                else {
+                    blurs[i].style.backgroundPosition = "-" + (blurs[i].offsetParent.offsetLeft + 3) + "px -" + (- 100 + blurs[i].offsetParent.offsetTop + blurs[i].offsetTop) + "px";
+                }
+            };
         };
+        function resize()
+        {
+            if (window.innerWidth / window.innerHeight < 1.62866) {
+                document.getElementsByTagName('body')[0].style.backgroundSize = 'cover';
+            }
+            for (var i = 0; i < blurs.length; i++) {
+                if (window.innerWidth / window.innerHeight < 1.62866) {
+                    blurs[i].style.backgroundSize = "auto " + window.innerHeight + "px";
+                }
+                else {
+                    blurs[i].style.backgroundSize = window.innerWidth + "px auto";
+                }
+                if (i < 2) {
+                    blurs[i].style.backgroundPosition = "-" + (blurs[i].offsetParent.offsetLeft + 5) + "px -" + (- 115 + blurs[i].offsetParent.offsetTop + blurs[i].offsetTop) + "px";
+                }
+                else {
+                    blurs[i].style.backgroundPosition = "-" + (blurs[i].offsetParent.offsetLeft + 5) + "px -" + (- 112 + blurs[i].offsetParent.offsetTop + blurs[i].offsetTop) + "px";
+                }
+            };
+        };
+        var blurs = document.querySelectorAll('span.blur');
+        window.onresize = resize;
+
+        load();
     </script>
 @stop

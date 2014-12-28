@@ -13,4 +13,13 @@ class Guitar extends Eloquent  {
 
     protected $guarded = array('id');
 
+    public function caracteristics()
+    {
+        return $this->belongsToMany('Caracteristic');
+    }
+
+    public function previous_owner()
+    {
+        return $this->belongsTo('PreviousOwner', 'previous_owner_id');
+    }
 }

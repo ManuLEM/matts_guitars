@@ -9,7 +9,7 @@ class AdminController extends BaseController {
     public function getLogin()
     {
         if (Auth::check()) {
-            return Redirect::route('admin_home');
+            return Redirect::route('adminHome');
         }
 
         $this->layout->content = View::make('admin.login');
@@ -33,7 +33,7 @@ class AdminController extends BaseController {
             if (Auth::attempt($credentials)) {
                 $user = Auth::user();
 
-                return Redirect::route('admin_home');
+                return Redirect::route('adminHome');
             } else {
                 $errors->add('credentials', 'Invalid login credentials');
 
@@ -59,6 +59,28 @@ class AdminController extends BaseController {
     {
         $data['articles'] = Guitar::all();
         $this->layout->content = View::make('admin.articles.list', $data);
+    }
+
+    public function getGuitarForm()
+    {
+        $this->layout->content = View::make('admin.guitars.add');
+    }
+
+    public function addGuitar()
+    {
+        $validator = Validator::make(Input::all(), array(
+            'title' => 'required',
+        ));
+
+        if ($validator->passes()) {
+
+        }
+        die;
+    }
+
+    public function getArticleForm()
+    {
+        $this->layout->content = View::make('admin.articles.add');
     }
 
 }
